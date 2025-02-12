@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery App - Header</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <header class="bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">FoodieXpress</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="categories.html">Categories</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about-us.html">About Us</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                More
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Blog</a></li>
+                                <li><a class="dropdown-item" href="#">FAQ</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex me-3">
+                        <input class="form-control me-2" type="search" placeholder="Search food or restaurants"
+                            aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                    <div class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="bi bi-person-circle"></i>
+                            <span class="badge bg-danger">3</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section id="hero" class="hero-section text-center text-light d-flex justify-content-center align-items-center">
+        <div class="hero-content">
+            <h1>Delicious Food Delivered to Your Doorstep!</h1>
+            <p>Explore a variety of meals from the best restaurants near you.</p>
+            <a href="#menu" class="btn btn-primary btn-lg">Order Now</a>
+        </div>
+    </section>
+    <section id="featured-categories" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Featured Categories</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card abc">
+                        <img src="images/pizza.jpg" class="card-img-top" alt="Pizza">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Pizza</h5>
+                            <p class="card-text">Enjoy the best pizza from local restaurants.</p>
+                            <a href="#" class="btn btn-primary">Explore</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card abc">
+                        <img src="images/sushi.png" class="card-img-top" alt="Sushi">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Sushi</h5>
+                            <p class="card-text">Fresh sushi delivered to your doorstep.</p>
+                            <a href="#" class="btn btn-primary">Explore</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card abc">
+                        <img src="images/Desserts.png" class="card-img-top" alt="Desserts">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Desserts</h5>
+                            <p class="card-text">Satisfy your sweet tooth with our delicious desserts.</p>
+                            <a href="#" class="btn btn-primary">Explore</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="popular-items" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Popular Items</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card abc">
+                        <img src="images/Delicious Pizza.png" class="card-img-top" alt="Pizza">
+                        <div class="card-body">
+                            <h5 class="card-title">Delicious Pizza</h5>
+                            <p class="card-text">Freshly made pizza with a variety of toppings.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="text-success fw-bold">Rs-120.99</span>
+                                <div>
+                                    <span class="text-warning">
+                                        <div class="star-rating">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-half"></i>
+                                        </div>
+                                    </span>
+                                    <span class="text-muted">(25 reviews)</span>
+                                </div>
+                            </div>
+                            <button class="btn btn-primary mt-2">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card abc">
+                        <img src="images/sushi.png" class="card-img-top" alt="Sushi">
+                        <div class="card-body">
+                            <h5 class="card-title">Fresh Sushi</h5>
+                            <p class="card-text">Authentic sushi made with fresh ingredients.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="text-success fw-bold">Rs-250</span>
+                                <div>
+                                    <span class="text-warning">
+                                        <div class="star-rating">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </div>
+                                    </span>
+                                    <span class="text-muted">(30 reviews)</span>
+                                </div>
+                            </div>
+                            <button class="btn btn-primary mt-2">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card abc">
+                        <img src="images/cake.png" class="card-img-top" alt="Desserts">
+                        <div class="card-body">
+                            <h5 class="card-title">Chocolate Cake</h5>
+                            <p class="card-text">Rich and creamy chocolate cake.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="text-success fw-bold">Rs-800</span>
+                                <div>
+                                    <span class="text-warning">
+                                        <div class="star-rating">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-half"></i>
+                                        </div>
+                                    </span>
+                                    <span class="text-muted">(20 reviews)</span>
+                                </div>
+                            </div>
+                            <button class="btn btn-primary mt-2">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="promotional-banners" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Special Offers</h2>
+            <div class="row">
+
+                <div class="col-md-6 mb-4">
+                    <div class="card abc">
+                        <img src="images/pizzaoffer.png" class="card-img-top" alt="Pizza Promotion">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">20% Off On All Pizzas</h5>
+                            <p class="card-text">Order now and enjoy a delicious pizza with a 20% discount!</p>
+                            <div id="timer1" class="text-danger fw-bold"></div>
+                            <button class="btn btn-primary mt-2">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card abc">
+                        <img src="images/sushioffer.png" class="card-img-top" alt="Sushi Promotion">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Buy 1 Get 1 Free on Sushi</h5>
+                            <p class="card-text">Get double the sushi goodness with our special offer!</p>
+                            <div id="timer2" class="text-danger fw-bold"></div>
+                            <button class="btn btn-primary mt-2">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="customer-testimonials" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Customer Testimonials</h2>
+            <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active text-center">
+                        <img src="images/client1.png" class="rounded-circle mb-3" alt="Customer 1">
+                        <h5>John Doe</h5>
+                        <p class="text-muted">"The food was fantastic! Quick delivery and great service. Highly
+                            recommend!"</p>
+                            <div class="star-rating">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+                    </div>
+                    <div class="carousel-item text-center">
+                        <img src="images/client2.png" class="rounded-circle mb-3" alt="Customer 2">
+                        <h5>Jane Smith</h5>
+                        <p class="text-muted">"Best delivery service I've ever used! The pizza was still hot when it
+                            arrived!"</p>
+                            <div class="star-rating">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                    </div>
+                    <div class="carousel-item text-center">
+                        <img src="images/client3.png" class="rounded-circle mb-3" alt="Customer 3">
+                        <h5>Mark Johnson</h5>
+                        <p class="text-muted">"Absolutely loved the sushi! The quality was top-notch, and the service
+                            was amazing."</p>
+                            <div class="star-rating">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <!-- <div class="text-center mt-4">
+                <img src="https://via.placeholder.com/150x50/ff6347/ffffff/?text=Best+Delivery+Service+2023"
+                    class="img-fluid" alt="Trust Badge">
+            </div> -->
+        </div>
+    </section>
+    <section id="how-it-works" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">How It Works</h2>
+            <div class="row text-center">
+                <div class="col-md-4 mb-4">
+                    <div class="step-icon">
+                        <img src="images/one.png" alt="Step 1 Icon"
+                            class="img-fluid mb-3">
+                    </div>
+                    <h5>Choose Your Meal</h5>
+                    <p>Select from a variety of delicious meals tailored to your taste.</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="step-icon">
+                        <img src="https://via.placeholder.com/100/00BFFF/ffffff/?text=2" alt="Step 2 Icon"
+                            class="img-fluid mb-3">
+                    </div>
+                    <h5>Add to Cart</h5>
+                    <p>Place your chosen meals in the cart for a seamless checkout experience.</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="step-icon">
+                        <img src="https://via.placeholder.com/100/FFD700/ffffff/?text=3" alt="Step 3 Icon"
+                            class="img-fluid mb-3">
+                    </div>
+                    <h5>Quick Delivery</h5>
+                    <p>Enjoy fast and reliable delivery right to your doorstep.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h5>Contact Information</h5>
+                    <p>Email: <a href="mailto:info@foodiexpress.com" class="text-white">info@foodiexpress.com</a></p>
+                    <p>Phone: <a href="tel:+1234567890" class="text-white">+91-77882 77882</a></p>
+                    <h6>Follow Us</h6>
+                    <a href="#" class="text-white me-2"><i class="fab fa-facebook-f"></i> Facebook</a>
+                    <a href="#" class="text-white me-2"><i class="fab fa-twitter"></i> Twitter</a>
+                    <a href="#" class="text-white"><i class="fab fa-instagram"></i> Instagram</a>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Terms of Service</a></li>
+                        <li><a href="#" class="text-white">Privacy Policy</a></li>
+                        <li><a href="#" class="text-white">FAQs</a></li>
+                        <li><a href="#" class="text-white">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Newsletter Signup</h5>
+                    <p>Subscribe to our newsletter for updates and special offers.</p>
+                    <form>
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Enter your email" required>
+                            <button class="btn btn-light" type="submit">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <p>&copy; 2024 FoodiExpress. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

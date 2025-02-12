@@ -1,0 +1,28 @@
+*{
+ box-sizing: border-box;
+}
+.courses{
+    width: 100%;
+    height: auto; 
+    clear:both;
+    display:table;
+    padding: 50px;
+}
+.course{
+    width: 25%;
+    display: inline-block;
+    float: left;
+    padding:20px;
+}
+.features{
+    width: 100%;
+    height: auto;
+    clear: both;
+    display:table;
+}
+.feature{
+    width: 50%;
+    display: inline-block;
+    float:left;
+    padding: 20px;
+}

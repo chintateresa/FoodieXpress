@@ -1,0 +1,189 @@
+/* Custom styles for the header */
+header {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+}
+
+.form-control {
+    border-radius: 20px;
+}
+
+.nav-link i {
+    font-size: 1.5rem;
+}
+/* hero section */
+/* Global Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Hero Section Styles */
+.hero-section {
+    background-image: url('images/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.hero-section::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay for better text visibility */
+    z-index: 1;
+}
+
+.hero-content {
+    position: relative; /* Ensures text is above the overlay */
+    z-index: 2; /* Higher z-index to stay above the overlay */
+}
+
+.hero-content h1 {
+    font-size: 3.5rem; /* Adjust for larger screens */
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.btn-primary {
+    background-color: #ff6347;
+    border-color: #ff6347;
+}
+
+.btn-primary:hover {
+    background-color: #ff3b1f;
+    border-color: #ff3b1f;
+}
+/* Featured Categories Section Styles */
+#featured-categories {
+    background-color: #f8f9fa;
+}
+
+.abc {
+    transition: transform 0.2s;
+}
+
+.abc:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+
+
+
+/* Popular Items Section Styles */
+#popular-items {
+    background-color: #f8f9fa;
+}
+
+
+
+
+
+/* Promotional Banners Section Styles */
+#promotional-banners {
+    background-color: #f8f9fa;
+}
+
+
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Customer Testimonials Section Styles */
+#customer-testimonials {
+    background-color: #f8f9fa;
+}
+.star-rating{
+    color: rgb(219, 219, 17);
+}
+.carousel-item {
+    padding: 20px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #ff6347; /* Change color of carousel controls */
+}
+
+.carousel-item img {
+    width: 100px; /* Ensure user images are a specific size */
+    height: 100px;
+}
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* How It Works Section Styles */
+#how-it-works {
+    background-color: #f8f9fa;
+}
+
+.step-icon {
+    background-color: #ffffff;
+    border-radius: 50%;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.step-icon:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+h5 {
+    font-weight: bold;
+}
+
+p {
+    font-size: 0.9rem;
+    color: #949eac;
+}
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #343a40;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
